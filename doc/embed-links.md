@@ -1,0 +1,18 @@
+// Black Magic Woman soundcloud
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1138179733&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/black-magic-woman-1" title="Black Magic Woman" target="_blank" style="color: #cccccc; text-decoration: none;">Black Magic Woman</a></div>
+
+
+// Disco Yes
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/disco-yes" title="Disco Yes" target="_blank" style="color: #cccccc; text-decoration: none;">Disco Yes</a></div>
+
+
+// Let me get Down
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689953&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/let-me-get-down" title="Let Me Get Down" target="_blank" style="color: #cccccc; text-decoration: none;">Let Me Get Down</a></div>
+
+
+// Real Rock
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689947&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/real-rock" title="Real Rock" target="_blank" style="color: #cccccc; text-decoration: none;">Real Rock</a></div>
