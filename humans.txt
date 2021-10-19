@@ -3,7 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jordan Tyczynski - Product Owner and Developper
+
 
 # THANKS
 
