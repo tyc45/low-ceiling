@@ -17,3 +17,29 @@ Faire une disposition de base des éléments:
 	- Formulaire: Faire un joli cadre et aligner les éléments
 		- Aligner la carte et infos de déplacement à droite du formulaire
 	- Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
+   
+	/*Header*/
+	.socials ul {
+	  display:flex;
+	  flex-direction:row;
+	  list-style: none;
+	  font-size: 40px;
+	 justify-content: space-evenly;
+	 width: 5em;
+   }
+   .anchors  {
+	  display: flex;
+	  flex-direction:row;
+	  font-size: 25px;
+	  justify-content: space-evenly;
+	  margin-top:-80px;
+	  margin-left: 190px;
+	  margin-bottom: 5em;
+   }
+   /*intro*/
+  /*utiliser float pour img.
+   .intro {
+	   background-image: url("../img/band-main-pic.jpg");
+	   background-size: cover;
+	 width: 100%;
+   }*/
