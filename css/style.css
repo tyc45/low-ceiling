@@ -43,9 +43,9 @@ Faire une disposition de base des éléments:
    /*intro*/
   /*utiliser float pour img.*/
    .intro {
-	   background-image: url("../img/band-main-pic.jpg");
-	   background-size: cover;
-	 width: 100%;
+	  background-image: url("../img/band-main-pic.jpg");
+	  background-size: cover;
+	  width: 100%;
 	  height: 40em;
 	  margin-bottom: 50px;
 	  font-size: 20px;
@@ -55,11 +55,10 @@ Faire une disposition de base des éléments:
 	  justify-content: center;
    }
    /*Musique*/
-   
-   .embedded {
-	display: flex;
+.embedded {
+	display: grid;
 	margin-bottom: 2%;
-	
-
+	grid-template-areas:"a b";
+	margin:5%;
    }
 
