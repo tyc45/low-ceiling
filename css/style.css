@@ -18,6 +18,10 @@ Faire une disposition de base des éléments:
 		- Aligner la carte et infos de déplacement à droite du formulaire
 	- Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
    
+	*body{
+	 margin:0%;
+	 padding: 0%;
+	}
 	/*Header*/
 	.socials ul {
 	  display:flex;
@@ -34,12 +38,28 @@ Faire une disposition de base des éléments:
 	  justify-content: space-evenly;
 	  margin-top:-80px;
 	  margin-left: 190px;
-	  margin-bottom: 5em;
+	  margin-bottom: 2em;
    }
    /*intro*/
-  /*utiliser float pour img.
+  /*utiliser float pour img.*/
    .intro {
 	   background-image: url("../img/band-main-pic.jpg");
 	   background-size: cover;
 	 width: 100%;
-   }*/
+	  height: 40em;
+	  margin-bottom: 50px;
+	  font-size: 20px;
+	  text-align: center;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+   }
+   /*Musique*/
+   
+   .embedded {
+	display: flex;
+	margin-bottom: 2%;
+	
+
+   }
+
