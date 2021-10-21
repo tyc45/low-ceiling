@@ -61,4 +61,28 @@ Faire une disposition de base des éléments:
 	grid-template-areas:"a b";
 	margin:5%;
    }
+/*transition*/
+.transition img {
+	background-image: url("../img/live-bright.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 50em;
+	margin-bottom: 40px;
+	font-size: 20px;
+	/*titre h2 a faire*/	
+}
 
+/*events*/
+.events {
+	/*A faire*/
+}
+.embedded img {
+	display: grid;
+	margin-bottom: 2%;
+	grid-template-areas:"a b";
+	margin:5%;
+    width: 100%;
+    height: 100%;
+}
+
+/*gallery*/
