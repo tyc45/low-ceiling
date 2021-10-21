@@ -83,6 +83,21 @@ Faire une disposition de base des éléments:
 	margin:5%;
     width: 100%;
     height: 100%;
+	/*h2 a faire contact*/
 }
 
 /*gallery*/
+
+.gallery img {
+	width: 50%;
+    height: 50%;
+	/*carousel à faire JS*/
+}
+/* join me */
+.joinme {
+padding: 70px;
+width: 200px;
+margin-top: -130px;
+border:solid 5px silver;
+margin:90px;
+}
