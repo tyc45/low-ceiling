@@ -9,6 +9,7 @@ Reformater les images pour rendre la page navigable pendant le dev
 
 Faire une disposition de base des éléments:
 	- Header: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible
+            Rendre toujours visible
 	- Musique: Réduire les lecteurs et les disposer comme dans le wireframe
 	- Vidéos: idem
 	- Galerie: Trouver comment faire un carrousel
@@ -17,7 +18,7 @@ Faire une disposition de base des éléments:
 	- Formulaire: Faire un joli cadre et aligner les éléments
 		- Aligner la carte et infos de déplacement à droite du formulaire
 	- Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
-   
+
 	*body{
 	 margin:0%;
 	 padding: 0%;
@@ -69,7 +70,7 @@ Faire une disposition de base des éléments:
 	height: 50em;
 	margin-bottom: 40px;
 	font-size: 20px;
-	/*titre h2 a faire*/	
+	/*titre h2 a faire*/
 }
 
 /*events*/
