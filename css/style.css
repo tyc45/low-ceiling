@@ -22,12 +22,16 @@ Rendre toujours visible
 body{
 	margin:0%;
 	padding: 0%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F5F5F5;
 }
 /*Header*/
 
 header{
 	position: fixed;
+	background-color: #2D1711;
 }
+
 
 .socials ul {
 	display:flex;
@@ -53,17 +57,25 @@ header{
 .intro {
 	background-image: url("../img/band-main-pic.jpg");
 	background-size: cover;
+	color: #F5F5F5;
 	width: 100%;
 	height: 40em;
 	margin-bottom: 50px;
 	font-size: 20px;
-	text-align: center;
+	text-align: justify;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
+
+h1{
+	font-family: 'Kanit', sans-serif;
+	font-size: xxx-large;
+	text-align: center;
+}
 /*Musique*/
 .embedded {
+	background-color: #716969;
 	display: grid;
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
@@ -75,14 +87,13 @@ header{
 	background-size: cover;
 	width: 100%;
 	height: 50em;
-	margin-bottom: 40px;
 	font-size: 20px;
 	/*titre h2 a faire*/
 }
 
 /*events*/
 .events {
-	/*A faire*/
+	background-color: #B84300;
 }
 .embedded img {
 	display: grid;
@@ -102,10 +113,10 @@ header{
 }
 /* join me */
 .joinme {
-	background-color: #9ED0E6;
+	background-color: #096B72;
 	width: 50%;
   }
-  
+
 .joinme form{
 	display: grid;
     /*grid-gap: 1em;
@@ -114,6 +125,7 @@ header{
 
 /*find me*/
 .findme {
+	background-color: #1B998B;
 	display: grid;
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
@@ -127,4 +139,8 @@ header{
 }
 .findme article {
 	word-wrap:break-word;
+}
+
+footer{
+	background-color: #EE7B30;
 }
