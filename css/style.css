@@ -37,20 +37,18 @@ header{
 	display:flex;
 	flex-direction:row;
 	list-style: none;
-	font-size: 40px;
+	font-size:xx-large;
 	justify-content: space-evenly;
-	width: 5em;
+	width: 20%;
 }
 .anchors  {
 	display: flex;
-	flex-direction:row;
-	font-size: 25px;
-	justify-content: space-evenly;
-	margin-top:-80px;
-	margin-left: 190px;
-	margin-bottom: 2em;
+	align-items: center;
+	justify-content: space-around;
+	font-size: xx-large;
+	margin: -80px 550px;
+	/*FAIRE ESPACEMENT ACCUEIL*/
 }
-
 
 /*intro*/
 /*utiliser float pour img.*/
@@ -59,9 +57,9 @@ header{
 	background-size: cover;
 	color: #F5F5F5;
 	width: 100%;
-	height: 40em;
-	margin-bottom: 50px;
-	font-size: 20px;
+	height: 35em;
+	margin-bottom: 5%;
+	font-size: larger;
 	text-align: justify;
 	display: flex;
 	flex-direction: column;
@@ -87,9 +85,14 @@ h1{
 	background-size: cover;
 	width: 100%;
 	height: 50em;
-	font-size: 20px;
-	/*titre h2 a faire*/
-}
+	/*margin-bottom: 5%;*/
+    font-size: 110%;
+}	
+/*titre h2 a faire*/
+/*.transition h2 {
+	text-align: center;
+	
+}*/
 
 /*events*/
 .events {
@@ -140,6 +143,10 @@ h1{
 .findme article {
 	word-wrap:break-word;
 }
+/*span {
+  display: block;
+  border: 1px solid rebeccapurple; faire carrer exemple de code
+}*/
 
 footer{
 	background-color: #EE7B30;
