@@ -95,7 +95,6 @@ header{
 }
 
 /*gallery*/
-
 .gallery img {
 	width: 50%;
 	height: 50%;
@@ -103,9 +102,29 @@ header{
 }
 /* join me */
 .joinme {
-	padding: 70px;
-	width: 200px;
-	margin-top: -130px;
-	border:solid 5px silver;
-	margin:90px;
+	background-color: #9ED0E6;
+	width: 50%;
+  }
+  
+.joinme form{
+	display: grid;
+    /*grid-gap: 1em;
+    padding: 1em;*/
+}
+
+/*find me*/
+.findme {
+	display: grid;
+	margin-bottom: 2%;
+	grid-template-areas:"a b";
+	margin:5%;
+	margin-top:-70%;
+	/*margin-right: 0%;*/
+	padding: 50%;
+	padding-right: 0%;
+	/*text-align: right;
+	align-items: right;*/
+}
+.findme article {
+	word-wrap:break-word;
 }
