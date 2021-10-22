@@ -8,59 +8,67 @@ Définir le jeu de couleurs à utiliser
 Reformater les images pour rendre la page navigable pendant le dev
 
 Faire une disposition de base des éléments:
-	- Header: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible
-	- Musique: Réduire les lecteurs et les disposer comme dans le wireframe
-	- Vidéos: idem
-	- Galerie: Trouver comment faire un carrousel
-	- Transitions: Mettre Texte devant image et trouver bonne couleurs pour texte
-	- Evenements: Aligner les boutons à droite en face du texte
-	- Formulaire: Faire un joli cadre et aligner les éléments
-		- Aligner la carte et infos de déplacement à droite du formulaire
-	- Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
-   
-	*body{
-	 margin:0%;
-	 padding: 0%;
-	}
-	/*Header*/
-	.socials ul {
-	  display:flex;
-	  flex-direction:row;
-	  list-style: none;
-	  font-size: 40px;
-	 justify-content: space-evenly;
-	 width: 5em;
-   }
-   .anchors  {
-	  display: flex;
-	  flex-direction:row;
-	  font-size: 25px;
-	  justify-content: space-evenly;
-	  margin-top:-80px;
-	  margin-left: 190px;
-	  margin-bottom: 2em;
-   }
-   /*intro*/
-  /*utiliser float pour img.*/
-   .intro {
-	  background-image: url("../img/band-main-pic.jpg");
-	  background-size: cover;
-	  width: 100%;
-	  height: 40em;
-	  margin-bottom: 50px;
-	  font-size: 20px;
-	  text-align: center;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-   }
-   /*Musique*/
+- Header: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible
+Rendre toujours visible
+- Musique: Réduire les lecteurs et les disposer comme dans le wireframe
+- Vidéos: idem
+- Galerie: Trouver comment faire un carrousel
+- Transitions: Mettre Texte devant image et trouver bonne couleurs pour texte
+- Evenements: Aligner les boutons à droite en face du texte
+- Formulaire: Faire un joli cadre et aligner les éléments
+- Aligner la carte et infos de déplacement à droite du formulaire
+- Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
+
+body{
+	margin:0%;
+	padding: 0%;
+}
+/*Header*/
+
+header{
+	position: fixed;
+}
+
+.socials ul {
+	display:flex;
+	flex-direction:row;
+	list-style: none;
+	font-size: 40px;
+	justify-content: space-evenly;
+	width: 5em;
+}
+.anchors  {
+	display: flex;
+	flex-direction:row;
+	font-size: 25px;
+	justify-content: space-evenly;
+	margin-top:-80px;
+	margin-left: 190px;
+	margin-bottom: 2em;
+}
+
+
+/*intro*/
+/*utiliser float pour img.*/
+.intro {
+	background-image: url("../img/band-main-pic.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 40em;
+	margin-bottom: 50px;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*Musique*/
 .embedded {
 	display: grid;
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
 	margin:5%;
-   }
+}
 /*transition*/
 .transition img {
 	background-image: url("../img/live-bright.jpg");
@@ -69,7 +77,7 @@ Faire une disposition de base des éléments:
 	height: 50em;
 	margin-bottom: 40px;
 	font-size: 20px;
-	/*titre h2 a faire*/	
+	/*titre h2 a faire*/
 }
 
 /*events*/
@@ -81,15 +89,15 @@ Faire une disposition de base des éléments:
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
 	margin:5%;
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 	/*h2 a faire contact*/
 }
 
 /*gallery*/
 .gallery img {
 	width: 50%;
-    height: 50%;
+	height: 50%;
 	/*carousel à faire JS*/
 }
 /* join me */
@@ -118,5 +126,5 @@ Faire une disposition de base des éléments:
 	align-items: right;*/
 }
 .findme article {
-	word-wrap:break-word;	
+	word-wrap:break-word;
 }
