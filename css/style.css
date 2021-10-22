@@ -22,12 +22,16 @@ Rendre toujours visible
 body{
 	margin:0%;
 	padding: 0%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F5F5F5;
 }
 /*Header*/
 
 header{
 	position: fixed;
+	background-color: #2D1711;
 }
+
 
 .socials ul {
 	display:flex;
@@ -51,17 +55,25 @@ header{
 .intro {
 	background-image: url("../img/band-main-pic.jpg");
 	background-size: cover;
+	color: #F5F5F5;
 	width: 100%;
 	height: 35em;
 	margin-bottom: 5%;
 	font-size: larger;
-	text-align: center;
+	text-align: justify;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
+
+h1{
+	font-family: 'Kanit', sans-serif;
+	font-size: xxx-large;
+	text-align: center;
+}
 /*Musique*/
 .embedded {
+	background-color: #716969;
 	display: grid;
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
@@ -82,10 +94,9 @@ header{
 	
 }*/
 
-
 /*events*/
 .events {
-	/*A faire*/
+	background-color: #B84300;
 }
 .embedded img {
 	display: grid;
@@ -105,10 +116,10 @@ header{
 }
 /* join me */
 .joinme {
-	background-color: #9ED0E6;
+	background-color: #096B72;
 	width: 50%;
   }
-  
+
 .joinme form{
 	display: grid;
     /*grid-gap: 1em;
@@ -117,6 +128,7 @@ header{
 
 /*find me*/
 .findme {
+	background-color: #1B998B;
 	display: grid;
 	margin-bottom: 2%;
 	grid-template-areas:"a b";
@@ -135,3 +147,7 @@ header{
   display: block;
   border: 1px solid rebeccapurple; faire carrer exemple de code
 }*/
+
+footer{
+	background-color: #EE7B30;
+}
