@@ -44,26 +44,14 @@ nav{
 	list-style: none;
 	font-size:xx-large;
 	justify-content: space-evenly;
-<<<<<<< HEAD
-	/* width: 5em; */
-=======
 	width: 20%;
->>>>>>> c944d3835249de2ab00fe7ed1bbdc3ac97346c5e
 }
 
 .anchors  {
 	display: flex;
-<<<<<<< HEAD
 	font-size: 25px;
 	justify-content: space-evenly;
 	margin: 0;
-=======
-	align-items: center;
-	justify-content: space-around;
-	font-size: xx-large;
-	margin: -80px 550px;
-	/*FAIRE ESPACEMENT ACCUEIL*/
->>>>>>> c944d3835249de2ab00fe7ed1bbdc3ac97346c5e
 }
 
 /*intro*/
@@ -103,11 +91,11 @@ h1{
 	height: 50em;
 	/*margin-bottom: 5%;*/
     font-size: 110%;
-}	
+}
 /*titre h2 a faire*/
 /*.transition h2 {
 	text-align: center;
-	
+
 }*/
 
 /*events*/
@@ -130,20 +118,26 @@ h1{
 	height: 50%;
 	/*carousel à faire JS*/
 }
+
 /* join me */
 .joinme {
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around; */
+	display: grid;
+	grid-template-areas: "a a b b b b";
+
 	background-color: #096B72;
   }
 
 .joinme form{
 	display: flex;
 	flex-direction: column;
+	/* width: 50%;
 	justify-content: flex-start;
+	align-content: space-between; */
     /*grid-gap: 1em;
-    padding: 1em;*/
+    padding: 1em; */
 }
 
 .joinme label{
