@@ -30,6 +30,11 @@ body{
 header{
 	position: fixed;
 	background-color: #2D1711;
+	height: 15%;
+}
+
+nav{
+		display: flex;
 }
 
 
@@ -39,16 +44,14 @@ header{
 	list-style: none;
 	font-size: 40px;
 	justify-content: space-evenly;
-	width: 5em;
+	/* width: 5em; */
 }
+
 .anchors  {
 	display: flex;
-	flex-direction:row;
 	font-size: 25px;
 	justify-content: space-evenly;
-	margin-top:-80px;
-	margin-left: 190px;
-	margin-bottom: 2em;
+	margin: 0;
 }
 
 
@@ -113,32 +116,38 @@ h1{
 }
 /* join me */
 .joinme {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	background-color: #096B72;
-	width: 50%;
   }
 
 .joinme form{
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
     /*grid-gap: 1em;
     padding: 1em;*/
+}
+
+.joinme label{
+	margin: 0 0 0 1%;
+}
+
+.joinme input, textarea{
+	margin: 1%;
 }
 
 /*find me*/
 .findme {
 	background-color: #1B998B;
-	display: grid;
-	margin-bottom: 2%;
-	grid-template-areas:"a b";
-	margin:5%;
-	margin-top:-70%;
-	/*margin-right: 0%;*/
-	padding: 50%;
-	padding-right: 0%;
-	/*text-align: right;
-	align-items: right;*/
+	/* display: grid;
+	grid-template-areas:"a b"; */
+	/* word-wrap:break-word; */
 }
-.findme article {
-	word-wrap:break-word;
+
+.findme iframe{
+	float: right;
 }
 
 footer{
