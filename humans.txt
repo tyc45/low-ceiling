@@ -3,7 +3,12 @@
 
 # TEAM
 
+<<<<<<< HEAD
     <name> -- <role> -- <twitter>
+=======
+    Jordan Tyczynski - Product Owner and Developper
+
+>>>>>>> 3e5f3401a956dfe7f0eb1a2aaca28b4a59c7eed6
 
 # THANKS
 

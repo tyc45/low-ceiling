@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Low Ceiling</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,23 +17,190 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <header>
+    
+    <!-- reseaux sociaux-->
+    <nav>
+      <section class="socials">
+        <ul>
+          <li><i class="fab fa-facebook"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-soundcloud"></i></li>
+        </ul>
+      </section>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+      <!-- anchors -->
+      <section class="anchors">
+        <a href="#acceuil">Acceuil</a>
+        <a href="#musique">Musique</a>
+        <a href="#evenements">Événements</a>
+        <a href="#video">Vidéos</a>
+        <a href="#galerie">Photos</a>
+        <a href="#contact">Contact</a>
+      </section>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <!--intro-->
+    <section class="intro" id="acceuil">
+
+      <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
+        delectus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
+        delectus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
+        delectus.</h2>
+    </section>
+
+
+    <!--embedded musique-->
+
+    <section class="embedded" id="musique">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1138179733&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689953&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689947&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    </section>
+
+    <!--transition-->
+    <section class="transition">
+      <img src="img/live-bright.jpg" alt="1ere image de fond" loading="lazy">
+      <h2>Événements</h2>
+    </section>
+
+    <!--events-->
+    <section class="events" id="evenements">
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit esse minus quis est ipsam a.</li>
+        <a href="https://fr.yahoo.com"><button>lien</button></a>
+
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusamus blanditiis quisquam nostrum
+          voluptas reprehenderit.</li>
+        <a href="https://fr.yahoo.com"><button>lien</button></a>
+
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis culpa dicta provident sit unde pariatur.</li>
+        <a href="https://fr.yahoo.com"><button>lien</button></a>
+
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam autem harum, impedit ea dignissimos?
+        </li>
+        <a href="https://fr.yahoo.com"><button>lien</button></a>
+      </ul>
+    </section>
+
+          <!-- embedded video -->
+    <section class="embedded" id="video">
+      <figure>
+        <img src="img/live-portrait-01.jpg" alt="1st" loading="lazy">
+      </figure>
+      <figure>
+        <img src="img/live-portrait-02.jpg" alt="2nd" loading="lazy">
+      </figure>
+      <figure>
+        <img src="img/live-portrait-03.jpg" alt="3rd" loading="lazy">
+      </figure>
+      <figure>
+        <img src="img/live-portrait-04.jpg" alt="4th" loading="lazy">
+      </figure>
+    </section>
+
+
+    <!--gallery-->
+    <section class="gallery" id="galerie">
+      <img src="img/live-landscape-01.jpg" alt="1ere image" loading="lazy" class="img_slider" active>
+      <img src="img/live-landscape-02.jpg" alt="2nde image" loading="lazy"class="img_slider">
+      <img src="img/live-landscape-03.jpg" alt="3eme image" loading="lazy"class="img_slider">
+      <img src="img/live-landscape-04.jpg" alt="4eme image" loading="lazy"class="img_slider">
+      <img src="img/live-landscape-05.jpg" alt="5eme image" loading="lazy"class="img_slider">
+      <img src="img/live-landscape-06.jpg" alt="6eme image" loading="lazy"class="img_slider"> 
+    </section>
+
+    <!--transition-->
+    <section class="transition">
+      <img src="img/live-landscape-06.jpg" alt="2eme image de fond" loading="lazy">
+      <h2>Contact</h2>
+    </section>
+
+    <!-- join me-->
+    <section class="joinme" id="contact">
+      <form action="" methode="">
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="surname">Prénom</label>
+        <input type="text" name="surname" id="surname" required><br>
+
+        <label for="email">adresse mail</label>
+        <input type="email" name=email id="email" required><br>
+
+        <label for="msg">message</label>
+        <textarea id="msg" name="user_message"></textarea><br>
+
+        <input type="submit" value="envoi">
+      </form>
+    </section>
+
+    <!--find me-->
+    <section class="findme">
+      <article>
+        <h3> Information déplacement</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptates magnam sequi quam libero neque.
+      </article>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40492.54356052055!2d3.0118784817491897!3d50.63112979600008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sen!2sfr!4v1634566919163!5m2!1sen!2sfr"
+        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <!--socials-->
+    <section class=" socials">
+      <ul>
+        <li><i class="fab fa-facebook"></i> </li>
+        <li><i class="fab fa-instagram"></i> </li>
+        <li><i class="fab fa-soundcloud"></i></li>
+      </ul>
+    </section>
+    <!--mail-->
+    <section class="mail">
+      <h3>jhfgj @gmail.com </h3>
+    </section>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
