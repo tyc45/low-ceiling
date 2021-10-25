@@ -31,26 +31,26 @@ header{
 	position: fixed;
 	background-color: #2D1711;
 	height: 15%;
+	width: 100%;
 }
 
 nav{
 		display: flex;
 }
 
-
 .socials ul {
 	display:flex;
 	flex-direction:row;
 	list-style: none;
 	font-size:xx-large;
-	justify-content: space-evenly;
-	width: 20%;
+	/* justify-content: space-between; */
+	/* width: 20%; */
 }
 
-.anchors  {
+.anchors {
 	display: flex;
 	font-size: 25px;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin: 0;
 }
 
@@ -125,14 +125,14 @@ h1{
 	flex-direction: row;
 	justify-content: space-around; */
 	display: grid;
-	grid-template-areas: "a a b b b b";
-
+	grid-template-columns: 1fr 2fr;
 	background-color: #096B72;
   }
 
 .joinme form{
 	display: flex;
 	flex-direction: column;
+	margin: 2%;
 	/* width: 50%;
 	justify-content: flex-start;
 	align-content: space-between; */
@@ -151,6 +151,8 @@ h1{
 /*find me*/
 .findme {
 	background-color: #1B998B;
+	margin: 2%;
+	padding: 2%;
 	/* display: grid;
 	grid-template-areas:"a b"; */
 	/* word-wrap:break-word; */
@@ -159,6 +161,7 @@ h1{
 .findme iframe{
 	float: right;
 }
+
 /*span {
   display: block;
   border: 1px solid rebeccapurple; faire carrer exemple de code
