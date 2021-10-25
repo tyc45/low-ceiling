@@ -15,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -69,16 +68,16 @@
     <!--embedded musique-->
 
     <section class="embedded" id="musique">
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      <iframe  width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1138179733&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      <iframe  width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      <iframe  width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689953&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+      <iframe  width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689947&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </section>
 
@@ -108,41 +107,49 @@
     </section>
 
     <!-- embedded video -->
-    <section class="embedded" id="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/bmGU0nnXNwU"
+    <section  >
+      <iframe class="video"  src="https://www.youtube.com/embed/bmGU0nnXNwU"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/gmPY3wjnieo"
+      <iframe class="video"  src="https://www.youtube.com/embed/gmPY3wjnieo"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/zLZreV6HHKM"
+      <iframe class="video"  src="https://www.youtube.com/embed/zLZreV6HHKM"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/APtokNYqw6o"
+      <iframe class="video"  src="https://www.youtube.com/embed/APtokNYqw6o"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/DlaPPFz1lZY"
+      <iframe class="video"  src="https://www.youtube.com/embed/DlaPPFz1lZY"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Q_JaI2-YedU"
+      <iframe class="video"  src="https://www.youtube.com/embed/Q_JaI2-YedU"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="cont-btn">
+        <div class="btn-nav leftvideo"> ⇤ </div>
+        <div class="btn-nav rightvideo"> ⇥ </div>
+      </div>
     </section>
 
 
     <!--gallery-->
     <section class="gallery" id="galerie">
-      <img src="img/live-landscape-01.jpg" alt="1ere image" loading="lazy">
-      <img src="img/live-landscape-02.jpg" alt="2nde image" loading="lazy">
-      <img src="img/live-landscape-03.jpg" alt="3eme image" loading="lazy">
-      <img src="img/live-landscape-04.jpg" alt="4eme image" loading="lazy">
-      <img src="img/live-landscape-05.jpg" alt="5eme image" loading="lazy">
-      <img src="img/live-landscape-06.jpg" alt="6eme image" loading="lazy">
+      <img class="active slider" src="img/live-landscape-01.jpg" alt="1ere image" loading="lazy">
+      <img class="slider" src="img/live-landscape-02.jpg" alt="2nde image" loading="lazy">
+      <img class="slider" src="img/live-landscape-03.jpg" alt="3eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-04.jpg" alt="4eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-05.jpg" alt="5eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-06.jpg" alt="6eme image" loading="lazy">
+      <div class="cont-btn">
+        <div class="btn-nav left"> ⇤ </div>
+        <div class="btn-nav right"> ⇥ </div>
+      </div>
     </section>
 
     <!--transition-->
