@@ -1,0 +1,21 @@
+.gallery img {
+	width: 50%;
+	height: 50%;
+	/*max-width: 800px;*/
+	margin: 0 auto;
+	padding: 50px;
+	display: none;
+	/*max-width:100%;*/
+}
+img.active {
+display: block;
+animation: fade 0.2s;
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

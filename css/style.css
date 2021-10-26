@@ -23,39 +23,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	background-color: #F5F5F5;
 }
-/*Header*/
 
-header{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	position: fixed;
-	background-color: #2D1711;
-	height: 15%;
-	font-size: large;
-}
-
-nav{
-		width: 100%;
-}
-
-
-
-nav ul {
-	/* width: 700px;
-	margin-left: 200px; */
-	display:flex;
-	justify-content: space-between;
-	list-style: none;
-	/* font-size:xx-large; */
-	/* width: 20%; */
-}
-
-.socials{
-	float: right;
-	list-style-type: none;
-	/* font-size: large; */
-}
 
 
 	/*FAIRE ESPACEMENT ACCUEIL*/
@@ -108,80 +76,7 @@ h1{
 .events {
 	background-color: #B84300;
 }
-/*.embedded img {*/
-	/*display: grid;*/
-	/*margin-bottom: 2%;*/
-	/*grid-template-areas:"a b";
-	margin:5%,0,0,2%;
-	width: 100%;
-	height: 100%;:*/
-	/*h2 a faire contact*/
-/*}*/
 
-/*gallery*/
-.gallery img {
-	width: 50%;
-	height: 50%;
-	/*max-width: 800px;*/
-	margin: 0 auto;
-	padding: 50px;
-	display: none;
-	/*max-width:100%;*/
-}
-img.active {
-display: block;
-animation: fade 0.2s;
-}
-@keyframes fade {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-.cont-btn{
-	width: 100%;
-	height: auto;
-	border: 5px solid #000;
-	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
-	display: flex;
-	justify-content: center;
-}
-.btn-nav{
-	font-size: 50px;
-	margin: 0 15px;
-	cursor: pointer;
-}
-
-/* join me */
-.joinme {
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-around; */
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	background-color: #096B72;
-  }
-
-.joinme form{
-	display: flex;
-	flex-direction: column;
-	margin: 2%;
-	/* width: 50%;
-	justify-content: flex-start;
-	align-content: space-between; */
-    /*grid-gap: 1em;
-    padding: 1em; */
-}
-
-.joinme label{
-	margin: 0 0 0 1%;
-}
-
-.joinme input, textarea{
-	margin: 1%;
-}
 
 /*find me*/
 .findme {
@@ -195,13 +90,4 @@ animation: fade 0.2s;
 
 .findme iframe{
 	float: right;
-}
-
-/*span {
-  display: block;
-  border: 1px solid rebeccapurple; faire carrer exemple de code
-}*/
-
-footer{
-	background-color: #EE7B30;
 }
