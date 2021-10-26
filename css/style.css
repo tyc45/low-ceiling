@@ -20,8 +20,6 @@ Rendre toujours visible
 - Footer: Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible */
 
 body{
-	margin:0%;
-	padding: 0%;
 	font-family: 'Roboto', sans-serif;
 	background-color: #F5F5F5;
 }
@@ -29,18 +27,22 @@ body{
 
 header{
 	position: fixed;
+	display: flex;
 	background-color: #2D1711;
 	height: 15%;
 	width: 100%;
 }
 
 nav{
-		display: flex;
+		width: 100%;
+}
+
+.socials{
+	float: right;
 }
 
 .socials ul {
 	display:flex;
-	flex-direction:row;
 	list-style: none;
 	font-size:xx-large;
 	/* justify-content: space-between; */
@@ -49,9 +51,8 @@ nav{
 
 .anchors {
 	display: flex;
-	font-size: 25px;
+	font-size:xx-large;
 	justify-content: space-between;
-	margin: 0;
 }
 
 /*intro*/
@@ -80,6 +81,8 @@ h1{
 	width: 560px;
 	height: 315px;
 }
+
+
 /*transition*/
 .transition img {
 	background-image: url("../img/live-bright.jpg");
