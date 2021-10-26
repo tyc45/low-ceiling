@@ -26,6 +26,9 @@ body{
 /*Header*/
 
 header{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
 	position: fixed;
 	display: flex;
 	background-color: #2D1711;
@@ -41,8 +44,14 @@ nav{
 	float: right;
 }
 
-.socials ul {
+nav ul {
+	width: 700px;
+	margin-left: 200px;
 	display:flex;
+<<<<<<< HEAD
+=======
+	justify-content: space-between;
+>>>>>>> 37de2652fa488d328310e6959c774de4f78e1d0d
 	list-style: none;
 	font-size:xx-large;
 	/* justify-content: space-between; */
@@ -54,6 +63,9 @@ nav{
 	font-size:xx-large;
 	justify-content: space-between;
 }
+	
+	/*FAIRE ESPACEMENT ACCUEIL*/
+
 
 /*intro*/
 /*utiliser float pour img.*/
