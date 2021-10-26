@@ -25,3 +25,16 @@
 .joinme input, textarea{
 	margin: 1%;
 }
+
+.findme {
+	background-color: #1B998B;
+	margin: 2%;
+	padding: 2%;
+	/* display: grid;
+	grid-template-areas:"a b"; */
+	/* word-wrap:break-word; */
+}
+
+.findme iframe{
+	float: right;
+}
