@@ -30,24 +30,28 @@ body{
 header{
 	position: fixed;
 	background-color: #2D1711;
+	height: 15%;
+	width: 100%;
 }
 
+nav{
+		display: flex;
+}
 
 .socials ul {
 	display:flex;
 	flex-direction:row;
 	list-style: none;
 	font-size:xx-large;
-	justify-content: space-evenly;
-	width: 20%;
+	/* justify-content: space-between; */
+	/* width: 20%; */
 }
-.anchors  {
+
+.anchors {
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	font-size: xx-large;
-	margin: -80px 550px;
-	/*FAIRE ESPACEMENT ACCUEIL*/
+	font-size: 25px;
+	justify-content: space-between;
+	margin: 0;
 }
 
 /*intro*/
@@ -87,11 +91,11 @@ h1{
 	height: 50em;
 	/*margin-bottom: 5%;*/
     font-size: 110%;
-}	
+}
 /*titre h2 a faire*/
 /*.transition h2 {
 	text-align: center;
-	
+
 }*/
 
 /*events*/
@@ -108,45 +112,57 @@ h1{
 	/*h2 a faire contact*/
 }
 
+
 /*gallery*/
 .gallery img {
 	width: 50%;
 	height: 50%;
 	/*carousel à faire JS*/
 }
+
 /* join me */
 .joinme {
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-around; */
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 	background-color: #096B72;
-	width: 50%;
   }
 
 .joinme form{
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+	/* width: 50%;
+	justify-content: flex-start;
+	align-content: space-between; */
     /*grid-gap: 1em;
-    padding: 1em;*/
+    padding: 1em; */
+}
+
+.joinme label{
+	margin: 0 0 0 1%;
+}
+
+.joinme input, textarea{
+	margin: 1%;
 }
 
 /*find me*/
 .findme {
 	background-color: #1B998B;
-	display: grid;
-	/*margin-bottom: 2%;*/
-	grid-template-areas:"a b";
-	/*margin:5%;
-	margin-top: 0%;
-	margin-right: 0%;
-	padding: 50%;
-	padding-right: 0%;
-	text-align: right;
-	align-items: right;*/
+	margin: 2%;
+	padding: 2%;
+	/* display: grid;
+	grid-template-areas:"a b"; */
+	/* word-wrap:break-word; */
 }
-.findme article {
-	word-wrap:break-word;
+
+.findme iframe{
+	float: right;
 }
-<<<<<<< HEAD
 
-
-=======
 /*span {
   display: block;
   border: 1px solid rebeccapurple; faire carrer exemple de code
@@ -155,4 +171,4 @@ h1{
 footer{
 	background-color: #EE7B30;
 }
->>>>>>> c944d3835249de2ab00fe7ed1bbdc3ac97346c5e
+
