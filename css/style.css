@@ -76,12 +76,9 @@ h1{
 	text-align: center;
 }
 /*Musique*/
-.embedded {
-	background-color: #716969;
-	display: grid;
-	margin-bottom: 2%;
-	grid-template-areas:"a b";
-	margin:5%;
+.video {
+	width: 560px;
+	height: 315px;
 }
 /*transition*/
 .transition img {
@@ -102,21 +99,50 @@ h1{
 .events {
 	background-color: #B84300;
 }
-.embedded img {
-	display: grid;
-	margin-bottom: 2%;
-	grid-template-areas:"a b";
-	margin:5%;
+/*.embedded img {*/
+	/*display: grid;*/
+	/*margin-bottom: 2%;*/
+	/*grid-template-areas:"a b";
+	margin:5%,0,0,2%;
 	width: 100%;
-	height: 100%;
+	height: 100%;:*/
 	/*h2 a faire contact*/
-}
+/*}*/
 
 /*gallery*/
 .gallery img {
 	width: 50%;
 	height: 50%;
-	/*carousel à faire JS*/
+	/*max-width: 800px;*/
+	margin: 0 auto;
+	padding: 50px;
+	display: none;
+	/*max-width:100%;*/
+}
+img.active {
+display: block;
+animation: fade 0.2s;
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.cont-btn{
+	width: 100%;
+	height: auto;
+	border: 5px solid #000;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: center;
+}
+.btn-nav{
+	font-size: 50px;
+	margin: 0 15px;
+	cursor: pointer;
 }
 
 /* join me */
