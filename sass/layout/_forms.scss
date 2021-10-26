@@ -5,24 +5,25 @@
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	background-color: #096B72;
-  }
+}
 
-.joinme form{
+.joinme form {
 	display: flex;
 	flex-direction: column;
 	margin: 2%;
 	/* width: 50%;
 	justify-content: flex-start;
 	align-content: space-between; */
-    /*grid-gap: 1em;
+	/*grid-gap: 1em;
     padding: 1em; */
 }
 
-.joinme label{
+.joinme label {
 	margin: 0 0 0 1%;
 }
 
-.joinme input, textarea{
+.joinme input,
+textarea {
 	margin: 1%;
 }
 
@@ -35,6 +36,6 @@
 	/* word-wrap:break-word; */
 }
 
-.findme iframe{
+.findme iframe {
 	float: right;
 }
