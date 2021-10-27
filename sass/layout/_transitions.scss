@@ -1,6 +1,6 @@
 // TODO - Transitions: Mettre Texte devant image et trouver bonne couleurs pour texte
 
-%transition{
+%transition {
 	background-size: cover;
 	color: #F5F5F5;
 	display: flex;
@@ -9,23 +9,21 @@
 	height: 35em;
 	justify-content: center;
 	margin-bottom: 5%;
-	text-align: center;
 	width: 100%;
 }
-
 
 .intro {
 	@extend %transition;
 	background-image: url("../img/band-main-pic.jpg");
 }
 
-.transition1{
+.transition1 {
 	@extend %transition;
 	background-image: url("../img/live-bright.jpg");
 	color: #2D1711;
 }
 
-.transition2{
+.transition2 {
 	@extend %transition;
 	background-image: url("../img/live-landscape-06.jpg");
 }
