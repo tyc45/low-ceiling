@@ -123,11 +123,11 @@ h1{
 	width: 50%;
 	height: 50%;
 	/*max-width: 800px;*/
-	margin: 0 auto;
-	padding: 50px;
+	margin: 50px 25% 0px 25%;
 	display: none;
 	/*max-width:100%;*/
 }
+
 img.active {
 display: block;
 animation: fade 0.2s;
