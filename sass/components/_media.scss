@@ -1,11 +1,31 @@
 // TODO
-// - Musique: Réduire les lecteurs et les disposer comme dans le wireframe
-// - Vidéos: idem
+// - Vidéos: Getting the videos to occupy fully the space inside their container
 
-.video {
-	height: 315px;
-	width: 560px;
+
+%embedded {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid thick;
+
+	iframe{
+		border: solid medium;
+	}
 }
-// add music styling here
 
-.embedded {}
+.embeddedmusic{
+	@extend %embedded;
+
+	iframe{
+		width: 100%;
+	}
+
+}
+
+.embeddedvideo{
+	@extend %embedded;
+	iframe{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
