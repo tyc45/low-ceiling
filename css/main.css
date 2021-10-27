@@ -317,6 +317,17 @@ img.active {
 
 footer {
   background-color: #EE7B30;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+footer.socials a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mail h3 {
+  text-align: center;
 }
 
 .joinme {
@@ -375,7 +386,8 @@ header {
 nav {
   width: 100%;
 }
-nav ul {
+
+ul {
   /* width: 700px;
   margin-left: 200px; */
   display: flex;
@@ -383,12 +395,6 @@ nav ul {
   list-style: none;
   /* font-size:xx-large; */
   /* width: 20%; */
-}
-
-.socials {
-  float: right;
-  list-style-type: none;
-  /* font-size: large; */
 }
 
 .transition2, .transition1, .intro {
