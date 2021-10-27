@@ -256,35 +256,33 @@ h3 {
 }
 
 .btn-nav {
+  cursor: pointer;
   font-size: 50px;
   margin: 0 15px;
-  cursor: pointer;
 }
 
 .cont-btn {
-  width: 50%;
-  margin: auto;
-  height: auto;
+  align-content: center;
   border: 1px solid #000;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   display: flex;
+  height: auto;
   justify-content: center;
-  align-content: center;
+  margin: auto;
+  width: 50%;
 }
 
 .gallery img {
-  width: 50%;
+  display: none;
   height: 50%;
-  /*max-width: 800px;*/
   margin: 0 auto;
   padding: 50px;
-  display: none;
-  /*max-width:100%;*/
+  width: 50%;
 }
 
 img.active {
-  display: block;
   animation: fade 0.2s;
+  display: block;
 }
 
 @keyframes fade {
@@ -296,8 +294,8 @@ img.active {
   }
 }
 .video {
-  width: 560px;
   height: 315px;
+  width: 560px;
 }
 
 .events {
@@ -312,9 +310,9 @@ footer {
   /* display: flex;
   flex-direction: row;
   justify-content: space-around; */
+  background-color: #096B72;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #096B72;
 }
 
 .joinme form {
@@ -351,12 +349,12 @@ textarea {
 }
 
 header {
+  background-color: #2D1711;
   display: flex;
+  font-size: large;
+  height: 15%;
   justify-content: space-between;
   position: fixed;
-  background-color: #2D1711;
-  height: 15%;
-  font-size: large;
   width: 100%;
   z-index: 99;
 }
