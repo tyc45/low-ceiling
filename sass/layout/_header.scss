@@ -1,0 +1,33 @@
+// TODO Aligner les éléments pour être en accord avec le wireframe et le garder toujours visible
+// Rendre toujours visible
+
+header {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #2D1711;
+	height: 15%;
+	font-size: large;
+	width: 100%;
+	z-index: 99;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	/* width: 700px;
+	margin-left: 200px; */
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	/* font-size:xx-large; */
+	/* width: 20%; */
+}
+
+.socials {
+	float: right;
+	list-style-type: none;
+	/* font-size: large; */
+}
