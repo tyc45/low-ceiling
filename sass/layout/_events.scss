@@ -1,16 +1,15 @@
-// TODO - Evenements: Aligner les boutons à droite en face du texte
-
 .events {
 	background-color: #B84300;
 	padding: 1em 5em 1em 5em;
 
 	ul{
-		list-style-type: none;
-
+		
 		li{
+			align-items: center;
+			border-top: solid thin;
+			border-bottom: solid thin;
 			display:flex;
 			justify-content: space-between;
-			align-items: center;
 		}
 	}
 }

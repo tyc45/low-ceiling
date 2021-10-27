@@ -5,7 +5,7 @@ header {
 	background-color: #2D1711;
 	display: flex;
 	font-size: large;
-	height: 15%;
+	height: 10%;
 	justify-content: space-between;
 	position: fixed;
 	width: 100%;
@@ -20,7 +20,6 @@ nav {
 		margin-left: 200px; */
 		display: flex;
 		justify-content: space-between;
-		list-style: none;
 		/* font-size:xx-large; */
 		/* width: 20%; */
 	}
@@ -28,6 +27,4 @@ nav {
 
 .socials {
 	float: right;
-	list-style-type: none;
-	/* font-size: large; */
 }

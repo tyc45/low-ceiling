@@ -241,6 +241,7 @@ h3 {
 }
 ul {
   padding: 0;
+  list-style-type: none;
 }
 
 body {
@@ -261,8 +262,7 @@ h3 {
 
 .btn-nav {
   cursor: pointer;
-  font-size: 50px;
-  margin: 0 15px;
+  font-size: 3em;
 }
 
 .cont-btn {
@@ -276,12 +276,15 @@ h3 {
   width: 50%;
 }
 
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .gallery img {
   display: none;
-  height: 50%;
-  margin: 0 auto;
-  padding: 50px;
-  width: 50%;
+  margin: 1em 0.5em 1em 0.5em;
+  width: 55%;
 }
 
 img.active {
@@ -306,13 +309,12 @@ img.active {
   background-color: #B84300;
   padding: 1em 5em 1em 5em;
 }
-.events ul {
-  list-style-type: none;
-}
 .events ul li {
+  align-items: center;
+  border-top: solid thin;
+  border-bottom: solid thin;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 footer {
@@ -365,7 +367,7 @@ header {
   background-color: #2D1711;
   display: flex;
   font-size: large;
-  height: 15%;
+  height: 10%;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -380,15 +382,12 @@ nav ul {
   margin-left: 200px; */
   display: flex;
   justify-content: space-between;
-  list-style: none;
   /* font-size:xx-large; */
   /* width: 20%; */
 }
 
 .socials {
   float: right;
-  list-style-type: none;
-  /* font-size: large; */
 }
 
 .transition2, .transition1, .intro {
