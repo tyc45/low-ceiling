@@ -239,6 +239,10 @@ h3 {
     page-break-after: avoid;
   }
 }
+ul {
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #F5F5F5;
@@ -300,6 +304,15 @@ img.active {
 
 .events {
   background-color: #B84300;
+  padding: 1em 5em 1em 5em;
+}
+.events ul {
+  list-style-type: none;
+}
+.events ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
