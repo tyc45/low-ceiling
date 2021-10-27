@@ -319,6 +319,17 @@ img.active {
 
 footer {
   background-color: #EE7B30;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+footer.socials a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mail h3 {
+  text-align: center;
 }
 
 .joinme {
