@@ -1,16 +1,14 @@
 .gallery img {
-	width: 50%;
+	display: none;
 	height: 50%;
-	/*max-width: 800px;*/
 	margin: 0 auto;
 	padding: 50px;
-	display: none;
-	/*max-width:100%;*/
+	width: 50%;
 }
 
 img.active {
-	display: block;
 	animation: fade 0.2s;
+	display: block;
 }
 @keyframes fade {
 	from {
