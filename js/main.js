@@ -42,7 +42,7 @@
 //   }
 // }
 // document.addEventListener('keydown', keyPress)
-//
+
 
 
 // slider photo //
