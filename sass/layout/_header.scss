@@ -5,34 +5,40 @@ header {
 	background-color: #2D1711;
 	display: flex;
 	font-size: large;
-	height: 10%;
+	height: 3.5em;
 	justify-content: space-between;
 	position: fixed;
 	width: 100%;
 	z-index: 99;
-}
-nav ul {
-	width: 100%;
-	margin-left: 10em;
-	display:flex;
-	justify-content: space-between;
-	list-style: none;
-	font-size: x-large;
-	
-  }
 
-  nav ul a{
-	  text-decoration: none;
-	  color:whitesmoke;
-  }
-.socials ul {
-	display: flex;
-	width: 70%;
-	margin-right: 5em;
-	justify-content: space-between;
-	list-style: none;
-	font-size: x-large;
-}
-.socials ul a {
-	color:whitesmoke;
+	nav {
+		ul {
+			width: 100%;
+			margin-left: 10em;
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+			font-size: x-large;
+
+			a {
+				text-decoration: none;
+				color: whitesmoke;
+			}
+		}
+	}
+
+	.socials {
+		ul {
+			display: flex;
+			width: 70%;
+			margin-right: 5em;
+			justify-content: space-between;
+			list-style: none;
+			font-size: x-large;
+
+			a {
+				color: whitesmoke;
+			}
+		}
+	}
 }
