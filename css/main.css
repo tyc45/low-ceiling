@@ -407,20 +407,31 @@ header {
   z-index: 99;
 }
 
-nav {
-  width: 100%;
-}
 nav ul {
-  /* width: 700px;
-  margin-left: 200px; */
+  width: 100%;
+  margin-left: 10em;
   display: flex;
   justify-content: space-between;
-  /* font-size:xx-large; */
-  /* width: 20%; */
+  list-style: none;
+  font-size: x-large;
 }
 
-.socials {
-  float: right;
+nav ul a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.socials ul {
+  display: flex;
+  width: 70%;
+  margin-right: 5em;
+  justify-content: space-between;
+  list-style: none;
+  font-size: x-large;
+}
+
+.socials ul a {
+  color: whitesmoke;
 }
 
 .transition2, .transition1, .intro {
