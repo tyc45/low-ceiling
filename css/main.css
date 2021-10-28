@@ -344,26 +344,20 @@ footer {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-
-.socials-footer a {
-  display: grid;
-  text-decoration: none;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.socials-footer ul {
+footer .socials-footer ul {
   display: flex;
   width: 70%;
   margin-left: 5em;
   list-style: none;
   font-size: x-large;
 }
-
-.socials-footer a {
+footer .socials-footer ul a {
   color: whitesmoke;
+  display: grid;
+  text-decoration: none;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-.mail h3 {
+footer .mail h3 {
   text-align: center;
   color: whitesmoke;
 }
