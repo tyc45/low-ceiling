@@ -1,39 +1,41 @@
 // TODO
 // - Vidéos: Getting the videos to occupy fully the space inside their container
 
-
 %embedded {
 	// border: solid thin;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	background-color: #222;
-figure{
-margin: 0.5em;
-	iframe{
-		border: solid thin;
-		width: 100%;
+
+	figure {
+		margin: 0.5em;
+
+		iframe {
+			border: solid thin;
+			width: 100%;
+		}
 	}
 }
-}
 
-.embeddedmusic{
+.embeddedmusic {
 	@extend %embedded;
-	figure{
+
+	figure {
 		height: 10em;
-	iframe{
-		height: 10em;
+
+		iframe {
+			height: 10em;
+		}
 	}
 }
-}
 
-.embeddedvideo{
+.embeddedvideo {
 	@extend %embedded;
 
-
-	figure{
+	figure {
 		height: 20em;
 
-		iframe{
+		iframe {
 			height: 100%;
 		}
 	}
