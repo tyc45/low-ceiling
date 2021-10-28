@@ -1,4 +1,4 @@
-// TODO - Transitions: Mettre Texte devant image et trouver bonne couleurs pour texte
+// Normalizing the style for transitions sections
 
 %transition {
 	background-size: cover;
@@ -11,6 +11,9 @@
 	width: 100%;
 }
 
+
+// Using padding here to let the text away from the screen's border
+
 .intro {
 	@extend %transition;
 	background-image: url("../img/band-main-pic.jpg");
@@ -20,7 +23,6 @@
 .transition1 {
 	@extend %transition;
 	background-image: url("../img/live-bright.jpg");
-	color: #F5F5F5;
 }
 
 .transition2 {

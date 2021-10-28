@@ -6,12 +6,18 @@ body {
 	background-color: #F5F5F5;
 }
 
+
+// Using Kanit font for Big titles
+
 h1,
 h2 {
 	font-family: 'Kanit', sans-serif;
 	font-size: xxx-large;
 	text-align: center;
 }
+
+
+// h3 are used for descriptive paragraph, thus using a justified alignment
 
 h3 {
 	text-align: justify;

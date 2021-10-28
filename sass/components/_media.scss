@@ -1,8 +1,6 @@
-// TODO
-// - Vidéos: Getting the videos to occupy fully the space inside their container
+// Standardizing the style for embedding external medias
 
 %embedded {
-	// border: solid thin;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	background-color: #222;
@@ -17,6 +15,9 @@
 	}
 }
 
+
+// This is the style specific to soundcloud integration
+
 .embeddedmusic {
 	@extend %embedded;
 
@@ -24,6 +25,9 @@
 		height: 10em;
 	}
 }
+
+
+// This is the style specific to youtube integration
 
 .embeddedvideo {
 	@extend %embedded;
