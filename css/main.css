@@ -301,29 +301,29 @@ img.active {
   }
 }
 .embeddedvideo, .embeddedmusic {
-  border: solid thick;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #222;
 }
-.embeddedvideo iframe, .embeddedmusic iframe {
-  border: solid medium;
+.embeddedvideo figure, .embeddedmusic figure {
+  margin: 0.5em;
+}
+.embeddedvideo figure iframe, .embeddedmusic figure iframe {
+  border: solid thin;
+  width: 100%;
 }
 
-.embeddedmusic iframe {
-  width: 100%;
+.embeddedmusic figure {
+  height: 10em;
+}
+.embeddedmusic figure iframe {
   height: 10em;
 }
 
-.embeddedvideo {
-  background-color: #222;
-}
 .embeddedvideo figure {
-  margin: 0.5em;
-  width: 100%;
   height: 20em;
 }
 .embeddedvideo figure iframe {
-  width: 100%;
   height: 100%;
 }
 
