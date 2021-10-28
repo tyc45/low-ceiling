@@ -8,22 +8,22 @@ footer {
 	.socials-footer {
 		ul {
 			display: flex;
-			width: 70%;
-			margin-left: 5em;
-			list-style: none;
 			font-size: x-large;
+			list-style: none;
+			margin-left: 5em;
+			width: 70%;
 
 			a {
 				color: whitesmoke;
 				display: grid;
-				text-decoration: none;
 				grid-template-columns: 1fr 1fr 1fr;
+				text-decoration: none;
 			}
 		}
 	}
 
 	.mail h3 {
-		text-align: center;
 		color: whitesmoke;
+		text-align: center;
 	}
 }

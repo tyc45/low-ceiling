@@ -1,41 +1,30 @@
 .joinme {
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-around; */
 	background-color: #096B72;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-}
 
-.joinme form {
-	display: flex;
-	flex-direction: column;
-	margin: 2%;
-	/* width: 50%;
-	justify-content: flex-start;
-	align-content: space-between; */
-	/*grid-gap: 1em;
-    padding: 1em; */
-}
+	form {
+		display: flex;
+		flex-direction: column;
+		margin: 2%;
 
-.joinme label {
-	margin: 0 0 0 1%;
-}
+		label {
+			margin: 0 0 0 1%;
+		}
 
-.joinme input,
-textarea {
-	margin: 1%;
-}
+		input,
+		textarea {
+			margin: 1%;
+		}
+	}
 
-.findme {
-	background-color: #1B998B;
-	margin: 2%;
-	padding: 2%;
-	/* display: grid;
-	grid-template-areas:"a b"; */
-	/* word-wrap:break-word; */
-}
+	.findme {
+		background-color: #1B998B;
+		margin: 2%;
+		padding: 2%;
 
-.findme iframe {
-	float: right;
+		iframe {
+			float: right;
+		}
+	}
 }
