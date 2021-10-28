@@ -301,9 +301,9 @@ img.active {
   }
 }
 .embeddedvideo, .embeddedmusic {
+  border: solid thick;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: solid thick;
 }
 .embeddedvideo iframe, .embeddedmusic iframe {
   border: solid medium;
@@ -311,12 +311,20 @@ img.active {
 
 .embeddedmusic iframe {
   width: 100%;
+  height: 10em;
 }
 
-.embeddedvideo iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.embeddedvideo {
+  background-color: #222;
+}
+.embeddedvideo figure {
+  margin: 0.5em;
+  width: 100%;
+  height: 20em;
+}
+.embeddedvideo figure iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .events {
