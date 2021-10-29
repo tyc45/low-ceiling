@@ -1,0 +1,31 @@
+// Normalizing the style for transitions sections
+
+%transition {
+	background-size: cover;
+	color: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+	font-size: larger;
+	height: 35em;
+	justify-content: center;
+	width: 100%;
+}
+
+
+// Using padding here to let the text away from the screen's border
+
+.intro {
+	@extend %transition;
+	background-image: url("../img/band-main-pic.jpg");
+	padding: 0 2em 0 2em;
+}
+
+.transition1 {
+	@extend %transition;
+	background-image: url("../img/live-bright.jpg");
+}
+
+.transition2 {
+	@extend %transition;
+	background-image: url("../img/live-landscape-06.jpg");
+}

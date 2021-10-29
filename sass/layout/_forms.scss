@@ -1,0 +1,30 @@
+.joinme {
+	background-color: #096B72;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		margin: 2%;
+
+		label {
+			margin: 0 0 0 1%;
+		}
+
+		input,
+		textarea {
+			margin: 1%;
+		}
+	}
+
+	.findme {
+		background-color: #1B998B;
+		margin: 2%;
+		padding: 2%;
+
+		iframe {
+			float: right;
+		}
+	}
+}

@@ -15,17 +15,20 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <!-- Importing Kanit and Roboto font from Google -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,700;1,500;1,700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet"> -->
+
+  <meta name="theme-color" content="#f5f5f5">
 </head>
+
 
 <body>
   <header>
-    <!-- reseaux sociaux-->
     <nav>
       <section class="socials">
         <ul>
@@ -45,190 +48,251 @@
         <a href="#contact">Contact</a>
       </section>
     </nav>
+
+    <section class="socials">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100057923034921" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/lowceiling.music/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://soundcloud.com/lowceiling59" target="_blank">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
   </header>
 
 
-
   <main>
-    <!--intro-->
+
+
+    <!-- The band's intro in front of a big picture -->
+
     <section class="intro" id="acceuil">
-      <figure>
-        <img src="img/band-main-pic.jpg" alt="">
+      <h1>Low Ceiling, la musique qui crève le plafond!</h1>
+      <h3>Actuellement connu sous le nom de Low Ceiling, cet ensemble, composé de 8 musiciens,
+        a émergé durant la pandémie. Malgré les contraintes, ils ont réussi à trouver le temps et la motivation
+        pour mettre au point un projet n'hésitant pas à faire le pont entre les genre musicaux pour faire danser
+        un maximum de monde!</h3>
+    </section>
+
+
+    <!-- Integrating Soundcloud's player into the website
+        TODO Move iframe's style to scss -->
+
+    <section class="embeddedmusic" id="musique">
+      <figure><iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1138179733&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </figure>
-      <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
-      <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
-        delectus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
-        delectus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, possimus? Id tempore doloremque quos
-        delectus.</h2>
-      </section>
+
+      <figure><iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+      </figure>
+
+      <figure><iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689953&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+      </figure>
+
+      <figure><iframe scrolling="no" frameborder="no" allow="autoplay" loading="lazy"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689947&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+      </figure>
+    </section>
 
 
-      <!--embedded musique-->
+    <!-- A big transitionning image introducing the next section -->
 
-      <section class="embedded" id="musique">
-        <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1138179733&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-      </iframe>
-      <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;
-      text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-      font-weight: 100;">
-      <a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">
-        Low Ceiling</a> ·
-        <a href="https://soundcloud.com/lowceiling59/black-magic-woman-1" title="Black Magic Woman" target="_blank" style="color: #cccccc;
-        text-decoration: none;">
-        Black Magic Woman</a>
+    <section class="transition1">
+      <h2>Événements</h2>
+    </section>
+
+
+    <!-- Section listing past and future band's events -->
+
+    <section class="events" id="evenements">
+      <ul>
+        <li>
+          <h3>02/10/2021: Concert aux portes ouvertes de Meta-Lunair</h3>
+          <a href="https://www.facebook.com/events/457299108853002/" target="_blank">
+            <button>L'événement</button>
+          </a>
+        </li>
+
+
+        <li>
+          <h3>23/10/2021: Concert privé dans les locaux de répétition des Low Ceiling</h3>
+          <a href="https://www.facebook.com/events/238536398291379" target="_blank">
+            <button>L'événement</button>
+          </a>
+        </li>
+
+
+        <li>
+          <h3>XX/XX/20XX: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+          <a href="https://www.facebook.com/profile.php?id=100057923034921" target="_blank">
+            <button>L'événement</button>
+          </a>
+        </li>
+
+
+        <li>
+          <h3>XX/XX/20XX: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+          <a href="https://www.facebook.com/profile.php?id=100057923034921" target="_blank">
+            <button>L'événement</button>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+
+    <!-- A section embedding videos highlighting the band
+        TODO: Move as much style as possible to scss -->
+
+    <section class="embeddedvideo" id="video">
+      <figure>
+        <iframe src="https://www.youtube.com/embed/bmGU0nnXNwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/gmPY3wjnieo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/zLZreV6HHKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/APtokNYqw6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/DlaPPFz1lZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/Q_JaI2-YedU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </figure>
+    </section>
+
+
+    <!-- A carrousel displaying a bunch of the band's picture -->
+
+    <section class="gallery" id="galerie">
+      <div class="btn-nav left"> ⇤ </div>
+      <img class="active slider" src="img/live-landscape-01.jpg" alt="1ere image" loading="lazy">
+      <img class="slider" src="img/live-landscape-02.jpg" alt="2nde image" loading="lazy">
+      <img class="slider" src="img/live-landscape-03.jpg" alt="3eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-04.jpg" alt="4eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-05.jpg" alt="5eme image" loading="lazy">
+      <img class="slider" src="img/live-landscape-06.jpg" alt="6eme image" loading="lazy">
+      <!-- <div class="cont-btn"> -->
+
+      <div class="btn-nav right"> ⇥ </div>
       </div>
+    </section>
 
-      <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-      <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;
-      text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-      font-weight: 100;">
-      <a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">
-        Low Ceiling</a> ·
-        <a href="https://soundcloud.com/lowceiling59/disco-yes" title="Disco Yes" target="_blank" style="color: #cccccc; text-decoration: none;">
-          Disco Yes</a>
-        </div>
 
-        <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689953&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;
-        text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-        font-weight: 100;">
-        <a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">
-          Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/let-me-get-down" title="Let Me Get Down" target="_blank" style="color: #cccccc; text-decoration: none;">Let Me Get Down</a>
-        </div>
+    <!-- A big transitionning image introducing the next section -->
 
-        <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1137689947&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-        <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;
-        text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-        font-weight: 100;">
-        <a href="https://soundcloud.com/lowceiling59" title="Low Ceiling" target="_blank" style="color: #cccccc; text-decoration: none;">
-          Low Ceiling</a> · <a href="https://soundcloud.com/lowceiling59/real-rock" title="Real Rock" target="_blank" style="color: #cccccc; text-decoration: none;">Real Rock</a>
-        </div>
-      </section>
+    <section class="transition2">
+      <h2>Contact</h2>
+    </section>
 
-      <!--transition-->
-      <section class="transition">
-        <img src="img/live-bright.jpg" alt="1ere image de fond" >
-        <h2>Événements</h2>
-      </section>
 
-      <!--events-->
-      <section class="events" id="evenements">
-        <ul>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit esse minus quis est ipsam a.</li>
-          <a href="https://fr.yahoo.com"><button>lien</button></a>
+    <!-- A simple form, not much to say here
+        TODO Make this point to the band's email adress -->
 
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusamus blanditiis quisquam nostrum
-            voluptas reprehenderit.</li>
-            <a href="https://fr.yahoo.com"><button>lien</button></a>
+    <section class="joinme" id="contact">
+      <form action="" method="">
+        <label for="name">Nom</label>
+        <input type="text" name="name" id="name" required>
 
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis culpa dicta provident sit unde pariatur.</li>
-            <a href="https://fr.yahoo.com"><button>lien</button></a>
+        <label for="surname">Prénom</label>
+        <input type="text" name="surname" id="surname" required>
 
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam autem harum, impedit ea dignissimos?</li>
-            <a href="https://fr.yahoo.com"><button>lien</button></a>
-          </ul>
-        </section>
+        <label for="email">adresse mail</label>
+        <input type="email" name=email id="email" required>
 
-        <section class="embedded" id="video">
-          <figure>
-            <img src="img/live-portrait-01.jpg" alt="1st">
-          </figure>
-          <figure>
-            <img src="img/live-portrait-02.jpg" alt="2nd">
-          </figure>
-          <figure>
-            <img src="img/live-portrait-03.jpg" alt="3rd">
-          </figure>
-          <figure>
-            <img src="img/live-portrait-04.jpg" alt="4th">
-          </figure>
-        </section>
-        <!-- embedded video -->
+        <label for="msg">message</label>
+        <textarea id="msg" name="user_message"></textarea>
 
-        <!--gallery-->
-        <section class="gallery" id="galerie">
-          <img src="img/live-landscape-01.jpg" alt="1ere image">
-          <img src="img/live-landscape-02.jpg" alt="2nde image">
-          <img src="img/live-landscape-03.jpg" alt="3eme image">
-          <img src="img/live-landscape-04.jpg" alt="4eme image">
-          <img src="img/live-landscape-05.jpg" alt="5eme image">
-          <img src="img/live-landscape-06.jpg" alt="6eme image">
-        </section>
+        <input type="submit" value="envoi">
+      </form>
 
-        <!--transition-->
-        <section class="transition">
-          <img src="img/live-landscape-06.jpg" alt="2eme image de fond">
-          <h2>Contact</h2>
-        </section>
-
-        <!-- join me-->
-        <section class="joinme" id="contact">
-          <form action="" methode="">
-            <label for="name">Nom</label>
-            <input type="text" name="name" id="name" required>
-
-            <label for="surname">Prénom</label>
-            <input type="text" name="surname" id="surname" required><br>
-
-            <label for="email">adresse mail</label>
-            <input type="email" name=email id="email" required><br>
-
-            <label for="msg">message</label>
-            <textarea id="msg" name="user_message"></textarea><br>
-
-            <input type="submit" value="envoi">
-          </form>
-        </section>
-
-        <!--find me-->
-        <section class="findme">
-          <article>
-            <h3> Information déplacement</h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptates magnam sequi quam libero neque.
-          </article>
-          <iframe
+      <article class="findme">
+        <!-- a google maps
+            TODO move the stylig to scss -->
+        <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40492.54356052055!2d3.0118784817491897!3d50.63112979600008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sen!2sfr!4v1634566919163!5m2!1sen!2sfr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          width="50%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        <h3>Où nous trouver?</h3>
+        <p>Etant un groupe basé à Lille, il est très facile de nous y rencontrer, c'est souvent avec une boisson
+        houblonnée que vous saurez attirer l'attention des membres du groupe ;)</p>
+      </article>
+    </section>
+  </main>
 
-        </section>
-      </main>
 
-      <!-- footer -->
-      <footer>
-        <!--socials-->
-        <section class=" socials">
-        <ul>
-          <li><i class="fab fa-facebook"></i> </li>
-          <li><i class="fab fa-instagram"></i> </li>
-          <li><i class="fab fa-soundcloud"></i></li>
-        </ul>
-      </section>
-        <!--mail-->
-        <section class="mail">
-          <h3>jhfgj @gmail.com </h3>
-        </section>
-      </footer>
-      <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-      <script src="js/plugins.js"></script>
-      <script src="js/main.js"></script>
+  <!-- The footer should contain miscalenous infos about the band, so far socials and email -->
 
-      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-      <script>
-      window.ga = function() {
-        ga.q.push(arguments)
-      };
-      ga.q = [];
-      ga.l = +new Date;
-      ga('create', 'UA-XXXXX-Y', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('set', 'transport', 'beacon');
-      ga('send', 'pageview')
-      </script>
-      <script src="https://www.google-analytics.com/analytics.js" async></script>
-    </body>
+  <footer>
+    <section class=" socials-footer">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100057923034921" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/lowceiling.music/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://soundcloud.com/lowceiling59" target="_blank">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
 
-    </html>
+    <section class="mail">
+      <h3>jhfgj @gmail.com </h3>
+    </section>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
