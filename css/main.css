@@ -265,17 +265,6 @@ h3 {
   font-size: 3em;
 }
 
-.cont-btn {
-  align-content: center;
-  border: 1px solid #000;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-  display: flex;
-  height: auto;
-  justify-content: center;
-  margin: auto;
-  width: 50%;
-}
-
 .gallery {
   display: flex;
   align-items: center;
@@ -316,9 +305,6 @@ img.active {
 .embeddedmusic figure {
   height: 10em;
 }
-.embeddedmusic figure iframe {
-  height: 10em;
-}
 
 .embeddedvideo figure {
   height: 20em;
@@ -346,61 +332,45 @@ footer {
 }
 footer .socials-footer ul {
   display: flex;
-  width: 70%;
-  margin-left: 5em;
-  list-style: none;
   font-size: x-large;
+  list-style: none;
+  margin-left: 5em;
+  width: 70%;
 }
 footer .socials-footer ul a {
   color: whitesmoke;
   display: grid;
-  text-decoration: none;
   grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
 }
 footer .mail h3 {
-  text-align: center;
   color: whitesmoke;
+  text-align: center;
 }
 
 .joinme {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around; */
   background-color: #096B72;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-
 .joinme form {
   display: flex;
   flex-direction: column;
   margin: 2%;
-  /* width: 50%;
-  justify-content: flex-start;
-  align-content: space-between; */
-  /*grid-gap: 1em;
-     padding: 1em; */
 }
-
-.joinme label {
+.joinme form label {
   margin: 0 0 0 1%;
 }
-
-.joinme input,
-textarea {
+.joinme form input,
+.joinme form textarea {
   margin: 1%;
 }
-
-.findme {
+.joinme .findme {
   background-color: #1B998B;
   margin: 2%;
   padding: 2%;
-  /* display: grid;
-  grid-template-areas:"a b"; */
-  /* word-wrap:break-word; */
 }
-
-.findme iframe {
+.joinme .findme iframe {
   float: right;
 }
 
@@ -456,7 +426,6 @@ header .socials ul a {
 
 .transition1 {
   background-image: url("../img/live-bright.jpg");
-  color: #F5F5F5;
 }
 
 .transition2 {
