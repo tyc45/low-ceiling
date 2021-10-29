@@ -21,3 +21,32 @@
 // Google Maps
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40492.54356052055!2d3.0118784817491897!3d50.63112979600008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sen!2sfr!4v1634566919163!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+<!-- Video 1 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bmGU0nnXNwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- Video 2 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gmPY3wjnieo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- Video 3 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zLZreV6HHKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- Video 4 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/APtokNYqw6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- Video 5 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DlaPPFz1lZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- Video 6 -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q_JaI2-YedU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

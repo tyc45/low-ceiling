@@ -1,0 +1,42 @@
+// Standardizing the style for embedding external medias
+
+%embedded {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #222;
+
+	figure {
+		margin: 0.5em;
+
+		iframe {
+			border: solid thin;
+			width: 100%;
+		}
+	}
+}
+
+
+// This is the style specific to soundcloud integration
+
+.embeddedmusic {
+	@extend %embedded;
+
+	figure {
+		height: 10em;
+	}
+}
+
+
+// This is the style specific to youtube integration
+
+.embeddedvideo {
+	@extend %embedded;
+
+	figure {
+		height: 20em;
+
+		iframe {
+			height: 100%;
+		}
+	}
+}

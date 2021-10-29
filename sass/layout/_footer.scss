@@ -1,0 +1,27 @@
+footer {
+	background-color: #EE7B30;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+
+	.socials-footer {
+		ul {
+			display: flex;
+			font-size: x-large;
+			list-style: none;
+			margin-left: 5em;
+			width: 70%;
+
+			a {
+				color: whitesmoke;
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.mail h3 {
+		color: whitesmoke;
+		text-align: center;
+	}
+}

@@ -1,0 +1,16 @@
+// Simple styling for events listing
+
+.events {
+	background-color: #B84300;
+	padding: 1em 5em 1em 5em;
+
+	ul{
+		li{
+			align-items: center;
+			border-top: solid thin;
+			border-bottom: solid thin;
+			display:flex;
+			justify-content: space-between;
+		}
+	}
+}
