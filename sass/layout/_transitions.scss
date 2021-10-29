@@ -11,13 +11,14 @@
 	width: 100%;
 }
 
-
 // Using padding here to let the text away from the screen's border
-
 .intro {
 	@extend %transition;
 	background-image: url("../img/band-main-pic.jpg");
-	padding: 0 2em 0 2em;
+
+	h3 {
+		margin: 0 2em;
+	}
 }
 
 .transition1 {

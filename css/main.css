@@ -367,11 +367,14 @@ footer .mail h3 {
 }
 .joinme .findme {
   background-color: #1B998B;
-  margin: 2%;
-  padding: 2%;
+  margin: 1.5em;
+  padding: 1.5em;
 }
 .joinme .findme iframe {
+  border: 0;
   float: right;
+  height: 100%;
+  width: 50%;
 }
 
 header {
@@ -421,7 +424,9 @@ header .socials ul a {
 
 .intro {
   background-image: url("../img/band-main-pic.jpg");
-  padding: 0 2em 0 2em;
+}
+.intro h3 {
+  margin: 0 2em;
 }
 
 .transition1 {
