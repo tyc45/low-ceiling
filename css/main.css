@@ -388,6 +388,8 @@ header {
   z-index: 99;
 }
 header nav ul {
+  width: 100%;
+  margin-left: 10em;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -399,6 +401,8 @@ header nav ul a {
 }
 header .socials ul {
   display: flex;
+  width: 70%;
+  margin-right: 5em;
   justify-content: space-between;
   list-style: none;
   font-size: x-large;
